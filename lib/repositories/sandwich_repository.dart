@@ -1,6 +1,6 @@
 import 'package:sandwich_shop/models/sandwich.dart';
 
-class SandiwchRepository{
+class SandwichRepository{
   List<Sandwich> getSandwiches(){
     return const [
       Sandwich(id: 'footlong', name: 'Footlong Sub', description: 'A freshly baked 12-inch sandwich filled with savory ingredients.', price: 7.50, imagePath: 'assets/images/footlong_sandwich.jpeg'),
