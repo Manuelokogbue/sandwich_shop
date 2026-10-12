@@ -3,7 +3,7 @@ import 'package:sandwich_shop/models/sandwich.dart';
 import 'package:sandwich_shop/repositories/sandwich_repository.dart';
 
 void main() {
-  group ('SandiwchRepository unit tests', () {
+  group('SandiwchRepository unit tests', () {
     test('getSandwiches returns two sandwiches', () {
       final SandwichRepository repository = SandwichRepository();
       final List<Sandwich> sandwiches = repository.getSandwiches();
